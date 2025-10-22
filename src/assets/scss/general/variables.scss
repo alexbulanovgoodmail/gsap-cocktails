@@ -11,3 +11,7 @@ $xxl: 1440px;
 /* fonts */
 $font-base: 'Mona Sans', 'Arial', sans-serif;
 $font-heading: 'Modern Negra', 'Time New Roman', serif;
+
+/* transition */
+$transition-duration: 300ms;
+$transition-function: cubic-bezier(0.075, 0.82, 0.165, 1);

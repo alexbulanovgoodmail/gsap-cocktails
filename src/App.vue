@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from '@/components/AppHeader.vue'
+</script>
 
 <template>
-  <h1 class="h1">You did it!</h1>
+  <main>
+    <AppHeader />
+  </main>
 </template>
 
 <style lang="scss" scoped>
