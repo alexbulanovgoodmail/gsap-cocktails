@@ -1,1 +1,5 @@
 /* main.css */
+:root {
+  --color-light: #efefef;
+  --color-accent: #e7d393;
+}

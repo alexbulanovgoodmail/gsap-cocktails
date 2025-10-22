@@ -6,6 +6,6 @@
 
 <style lang="scss" scoped>
 .h1 {
-  color: red;
+  color: var(--color-text-base);
 }
 </style>

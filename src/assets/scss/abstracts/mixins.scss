@@ -13,3 +13,11 @@
     text-overflow: ellipsis;
   }
 }
+
+@mixin font-base {
+  font-family: $font-base;
+}
+
+@mixin font-heading {
+  font-family: $font-heading;
+}
