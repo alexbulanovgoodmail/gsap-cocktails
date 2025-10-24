@@ -43,3 +43,11 @@ body {
     padding: 0 80px;
   }
 }
+
+.noisy {
+  @include noisy;
+}
+
+.text-gradient {
+  @include text-gradient;
+}

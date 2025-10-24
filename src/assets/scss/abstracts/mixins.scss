@@ -21,3 +21,28 @@
 @mixin font-heading {
   font-family: $font-heading;
 }
+
+@mixin noisy {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: url('@/assets/images/noise.png');
+}
+
+@mixin hover {
+  transition: color $transition-duration $transition-function;
+
+  @media (hover: hover) {
+    &:hover,
+    &:focus-visible {
+      color: var(--color-accent);
+    }
+  }
+}
+
+@mixin text-gradient {
+  background: linear-gradient(to bottom, #fff, #898989);
+  background-clip: text;
+  color: transparent;
+}

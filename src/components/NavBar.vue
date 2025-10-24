@@ -73,14 +73,8 @@ import { navLinks } from '@/constants/index'
     color: var(--color-light);
     text-decoration: none;
     white-space: nowrap;
-    transition: color $transition-duration $transition-function;
 
-    @media (hover: hover) {
-      &:hover,
-      &:focus-visible {
-        color: var(--color-accent);
-      }
-    }
+    @include hover;
   }
 }
 </style>
